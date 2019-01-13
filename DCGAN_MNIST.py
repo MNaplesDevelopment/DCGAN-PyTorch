@@ -113,8 +113,8 @@ def train(epochs):
             netD.zero_grad()
 
             batch_size = batch.shape[0]
-            y_real = torch.ones(batch_size)
-            y_fake = torch.zeros(batch_size)
+            y_real = torch.ones(batch_size)     # labels for the networks, the discriminator is training to
+            y_fake = torch.zeros(batch_size)    # differentiate between real and fake images, so we label the accordingly
 
             batch, y_real, y_fake = Variable(batch), Variable(y_real), Variable(y_fake)
             D_output_real = netD(batch).squeeze()    # predictions of the 32 real images.
