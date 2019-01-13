@@ -12,7 +12,7 @@ Results after 2 epoch:
 
 ![GAN-Output](/imgs/GAN-Output.png)
 
-And here's a look inside the Generator! Each picture contains the output at each layer.
+And here's a look inside the Generator! Each picture contains the output at each layer. The images start at 4x4 pixels and double in size until they are 64x64.
 
 ![GAN-Deconv1](/imgs/GAN-Deconv1.png)
 
