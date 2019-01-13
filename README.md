@@ -10,6 +10,6 @@ Generative Adverserial Networks are actually two networks in one, competing agai
 
 Results after 1 epoch:
 
-![GANoutput](username.github.com/repository/GANoutput.png)
+![GANoutput](MNaplesDevelopment.github.com/MNIST-DCGAN-PyTorch/GANoutput.png)
 
 I plan to train this for longer to get better result however I trained this on a CPU and 1 epoch took over 2 hours. The code can also be easily altered to take advantage of a GPU.
