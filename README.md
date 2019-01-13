@@ -8,8 +8,19 @@ I barrowed some code the PyTorch Website, I made minor changes to the generator 
 
 Generative Adverserial Networks are actually two networks in one, competing against eachother. The Discriminator a Convolutional Neural Network, whose job is to diffentiate between real and fake image, of in this case, images of digits. The Generator is Deconvolutional Neural Network, that will generate the actually images to feed to the discriminator in training (real images are also fed to discriminator at training time). It's crucial that these networks are mirror images of eachother.
 
-Results after 1 epoch:
+Results after 2 epoch:
 
-![GANoutput](/GANoutput.png)
+![GAN-Output](/imgs/GAN-Output.png)
 
-I plan to train this for longer to get better result however I trained this on a CPU and 1 epoch took over 2 hours. The code can also be easily altered to take advantage of a GPU.
+And here's a look inside the Generator! Each picture contains the output at each layer.
+
+![GAN-Deconv1](/imgs/GAN-Deconv1.png)
+
+![GAN-Deconv2](/imgs/GAN-Deconv2.png)
+
+![GAN-Deconv3](/imgs/GAN-Deconv3.png)
+
+![GAN-Deconv4](/imgs/GAN-Deconv4.png)
+
+![GAN-Deconv5](/imgs/GAN-Deconv5.png)
+
