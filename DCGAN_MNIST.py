@@ -150,6 +150,7 @@ def train(epochs):
 # train(1)
 #
 # torch.save(netG.state_dict(), "DCGAN1.pt")
+# torch.save(netD.state_dict(), "DCGAN2.pt")
 
 netG.load_state_dict(torch.load('DCGAN1.pt'))
 
@@ -161,27 +162,4 @@ for i in range(20):
     plt.imshow(arr[i][0], cmap='gray')
 
 plt.show()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
