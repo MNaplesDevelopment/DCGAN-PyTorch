@@ -8,6 +8,8 @@ I barrowed some code the PyTorch Website, I made minor changes to the generator 
 
 Generative Adverserial Networks are actually two networks in one, competing against eachother. The Discriminator a Convolutional Neural Network, whose job is to diffentiate between real and fake image, of in this case, images of digits. The Generator is Deconvolutional Neural Network, that will generate the actually images to feed to the discriminator in training (real images are also fed to discriminator at training time). It's crucial that these networks are mirror images of eachother.
 
+# Results
+
 Results after 2 epoch:
 
 ![GAN-Output](/imgs/GAN-Output.png)
@@ -24,3 +26,8 @@ And here's a look inside the Generator! Each picture contains each channel at a 
 
 ![GAN-Deconv5](/imgs/GAN-Deconv5.png)
 
+# More Deep Learning
+
+More to come soon! I'm currently working on progressively growing GAN's as described in this paper from NVIDIA: https://arxiv.org/abs/1710.10196
+
+Also check out my school project: Deep Learning to Decet Logical Bugs in Software: https://github.com/TeamLigers/bug-prediction/blob/master/src/RNN_model.ipynb
