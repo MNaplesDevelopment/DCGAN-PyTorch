@@ -1,6 +1,6 @@
 # MNIST-DCGAN-PyTorch
 
-Based of the tutorial PyTorch's website: https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html
+Based on the tutorial PyTorch's website: https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html
 
 I also took inspiration from fast ai: https://course.fast.ai/lessons/lesson12.html
 
