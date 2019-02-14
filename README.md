@@ -1,11 +1,5 @@
 # MNIST-DCGAN-PyTorch
 
-Based on the tutorial PyTorch's website: https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html
-
-I also took inspiration from fast ai: https://course.fast.ai/lessons/lesson12.html
-
-I barrowed some code from the PyTorch Website, I made minor changes to the generator and discriminator, the architectures are largely the same however I used more intuitive variable names. I also wrote my own training loop because the one in the tutorial was kind of hard to understand in my opinion. I also included the names of all the formal parameters so people unfamiliar with PyTorch should have an easy time understanding the code.
-
 Generative Adverserial Networks are actually two networks in one, competing against eachother. The Discriminator a Convolutional Neural Network, whose job is to diffentiate between real and fake images. The Generator is Deconvolutional Neural Network, that will generate the actual images to feed to the discriminator in training (real images are also fed to discriminator at training time). It's crucial that these networks are mirror images of eachother.
 
 # Results
