@@ -1,4 +1,4 @@
-# DCGAN in PyTorch🔥
+# DCGAN in PyTorch
 
 Generative Adverserial Networks are actually two networks in one, competing against eachother. The Discriminator a Convolutional Neural Network, whose job is to diffentiate between real and fake images. The Generator is Deconvolutional Neural Network, that will generate the actual images to feed to the discriminator in training (real images are also fed to discriminator at training time). It's crucial that these networks are mirror images of eachother.
 
