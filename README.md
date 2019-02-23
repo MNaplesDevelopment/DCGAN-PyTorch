@@ -4,7 +4,7 @@ Generative Adverserial Networks are actually two networks in one, competing agai
 
 And yes; I know this project is a mess right now but I plan on cleaning it up eventually... (story of my life).
 
-I would also like to apologize to the 4 random people who cloned this repo in such a bad shape.
+I would also like to apologize to the 4 random people who cloned this repo in such bad shape.
 
 # Results for CelebA
 Since the network is mapping a vector of random numbers to a complete image we can easily interpolate between faces by interpolating between latent vector spaces.
