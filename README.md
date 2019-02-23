@@ -2,6 +2,8 @@
 
 Generative Adverserial Networks are actually two networks in one, competing against eachother. The Discriminator a Convolutional Neural Network, whose job is to diffentiate between real and fake images. The Generator is Deconvolutional Neural Network, that will generate the actual images to feed to the discriminator in training (real images are also fed to discriminator at training time). It's crucial that these networks are mirror images of eachother.
 
+And yes; I know this project is a mess right now but I plan on cleaning it up eventually... (story of my life).
+
 # Results for CelebA
 Since the network is mapping a vector of random numbers to a complete image we can easily interpolate between faces by interpolating between latent vector spaces.
 
