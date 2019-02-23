@@ -45,4 +45,4 @@ And here's a look inside the Generator! Each picture contains each channel at a 
 
 More to come soon! I'm currently working on progressively growing GAN's as described in this paper from NVIDIA: https://arxiv.org/abs/1710.10196
 
-Also check out my school project which takes a very Natural Language Processing approach to bug detection: Deep Learning to Decet Logical Bugs in Software: https://github.com/TeamLigers/bug-prediction/blob/master/src/RNN_model.ipynb
+Also check out my school project which takes a very Natural Language Processing approach to bug detection: Deep Learning to Decet Logical Bugs in Software: https://github.com/MNaplesDevelopment/deep-learning-software-defects
