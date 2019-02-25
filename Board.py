@@ -3,7 +3,7 @@ from tkinter import *
 from PIL import Image, ImageTk
 import random
 import torch
-from DCGAN_MNIST import *
+from DCGAN import *
 
 netG.load_state_dict(torch.load('Networks/DCGANG_128xFaces5.pt'))
 
