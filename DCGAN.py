@@ -230,15 +230,23 @@ def plot_layers(greyscale):
         plt.yticks([])
     plt.show()
 
+    fig = plt.figure(figsize=(8, 8))
+    for i in range(32):
+        img = out[4][0, i, :, :]
+        fig.add_subplot(5, 7, i + 1)
+        plt.imshow(img, cmap='gray')
+        plt.xticks([])
+        plt.yticks([])
+    plt.show()
+
     # 64
     if greyscale:
         fig = plt.figure(figsize=(8, 8))
-        img = out[4][0, 0, :, :]
+        img = out[5][0, 0, :, :]
         plt.imshow(img, cmap='gray')
         plt.show()
     else:
-        #fig = plt.figure(figsize=(8, 8))
-        img = out[4][0, :, :, :].transpose(1, 2, 0)
+        img = out[5][0, :, :, :].transpose(1, 2, 0)
         img = ((img - img.min()) * (1 / img.max() - img.min()) * 50).astype('uint8')
         plt.imshow(img)
         plt.show()
