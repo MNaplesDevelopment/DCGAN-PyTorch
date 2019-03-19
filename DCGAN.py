@@ -14,9 +14,9 @@ from PIL import Image, ImageTk
 import random
 
 num_channels = 3
-# Reshape data to 64x64 and normalize the values so they are between -1 and 1.
-trans = transforms.Compose([transforms.Resize(64),
-                            transforms.CenterCrop(64),
+# Reshape data to 128x128 and normalize the values so they are between -1 and 1.
+trans = transforms.Compose([transforms.Resize(128),
+                            transforms.CenterCrop(128),
                             transforms.ToTensor(),
                             transforms.Normalize(mean=(0.5, 0.5, 0.5), std=(0.5, 0.5, 0.5))])
 
@@ -131,7 +131,7 @@ def train(epochs):
     for epoch in range(epochs):
         x = 0
         for batch, labels in train_loader:
-            # batch size: [32, 1, 64, 64]
+            # batch size: [32, 3, 128, 128]
             netD.zero_grad()
 
             batch_size = batch.shape[0]
